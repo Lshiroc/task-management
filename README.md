@@ -9,7 +9,7 @@ ReactJS, ExpressJS, MongoDB
 
 You can use this account to test things out without having to create an account.
 ```
-username: zeynal@gmail.com
+username: zeynal
 password: zeynal123
 ```
 
