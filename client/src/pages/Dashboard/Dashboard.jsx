@@ -192,7 +192,7 @@ export default function Dashboard() {
         console.log("hmm", data)
         console.log("log", JSON.parse(newBody.body))
 
-        fetch('${import.meta.env.VITE_BACKEND_URL}/todos/', newBody)
+        fetch(`${import.meta.env.VITE_BACKEND_URL}/todos/`, newBody)
             .then(resp => resp.json())
             .then(data => {})
             .catch(err => console.error(err));
