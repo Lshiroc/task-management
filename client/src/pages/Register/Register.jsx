@@ -38,7 +38,7 @@ export default function Register() {
 
         let loginData;
 
-        loginData = await fetch(`https://todo-website-backend.vercel.app/users/register`, requestBody)
+        loginData = await fetch(`http://127.0.0.1:8000/users/register`, requestBody)
             .then(resp => resp.json())
             .then(data => data)
             .catch(err => setError("*Information is wrong"));
@@ -54,7 +54,7 @@ export default function Register() {
     return (
         <>
         <Helmet>
-            <title>Register - Doin' It</title>
+            <title>Register - Task Manager</title>
         </Helmet>
             <main className={style.main}>
                 <h1 className={style.title}>Register</h1>

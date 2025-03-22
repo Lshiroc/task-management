@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
     <Router>
       <Helmet>
-        <title>Doin' It</title>
+        <title>Task Manager</title>
       </Helmet>
       <App />
     </Router>
