@@ -230,7 +230,7 @@ export default function List({setIsMenuOpen, setContextMenu, setColorPicker, fet
 
             </div>
             <div className={style.addItem}>
-                <input type="text" ref={input} slug="d23FD67s" placeholder="I'll shave my head off" onKeyDown={(e) => {e.key == "Enter" && addText(e)}} />
+                <input type="text" ref={input} slug="d23FD67s" placeholder="Type a task..." onKeyDown={(e) => {e.key == "Enter" && addText(e)}} />
             </div>
         </div>
     )

@@ -48,7 +48,7 @@ export default function Login() {
     return (
         <>
         <Helmet>
-            <title>Login - Doin' It</title>
+            <title>Login - Task Manager</title>
         </Helmet>
             <main className={style.main}>
                 <h1 className={style.title}>Login</h1>

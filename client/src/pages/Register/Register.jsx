@@ -54,7 +54,7 @@ export default function Register() {
     return (
         <>
         <Helmet>
-            <title>Register - Doin' It</title>
+            <title>Register - Task Manager</title>
         </Helmet>
             <main className={style.main}>
                 <h1 className={style.title}>Register</h1>

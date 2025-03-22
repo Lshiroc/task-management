@@ -8,9 +8,9 @@ import waiting from './../../assets/icons/waiting.svg';
 
 export default function Home() {
     const [items, setItems] = useState([
-        {id: "1", status: "done", text: "Keep Doin' It while your plans are organized"},
-        {id: "2", status: "pending", text: "Change your way of thinking"},
-        {id: "3", status: "undone", text: "Don't forget to touch some grass"},
+        {id: "1", status: "done", text: "Complete your tasks while your plans are organized"},
+        {id: "2", status: "pending", text: "Change the way of your thinking"},
+        {id: "3", status: "undone", text: "Don't forget to take a break"},
     ]);
 
     const changeStatus = (id, status) => {
@@ -37,11 +37,11 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <title>Doin' It</title>
+                <title>Task Manager</title>
             </Helmet>
             <nav className={style.navbar}>
                 <div className={style.container}>
-                    <div className={style.logo}>Doin' It!</div>
+                    <div className={style.logo}>Task Manager</div>
                 </div>
             </nav>
             <main className={style.main}>
