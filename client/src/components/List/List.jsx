@@ -78,7 +78,7 @@ export default function List({setIsMenuOpen, setContextMenu, setColorPicker, fet
             }
 
             // Sending request
-            fetch(`http://127.0.0.1:8000/todos/${showList.slug}`, saveBody)
+            fetch(`${import.meta.env.VITE_BACKEND_URL}/todos/${showList.slug}`, saveBody)
                 .then(resp => resp.json())
                 .then(data => console.log(data))
                 .catch(err => console.error(err));
@@ -129,7 +129,7 @@ export default function List({setIsMenuOpen, setContextMenu, setColorPicker, fet
             })
         }
 
-        fetch(`http://127.0.0.1:8000/todos/${showList.slug}`, newBody)
+        fetch(`${import.meta.env.VITE_BACKEND_URL}/todos/${showList.slug}`, newBody)
             .then(resp => resp.json())
             .then(data => {})
             .catch(err => console.error(err));
@@ -157,7 +157,7 @@ export default function List({setIsMenuOpen, setContextMenu, setColorPicker, fet
             })
         }
 
-        fetch(`http://127.0.0.1:8000/todos/${showList.slug}`, newBody)
+        fetch(`${import.meta.env.VITE_BACKEND_URL}/todos/${showList.slug}`, newBody)
             .then(resp => resp.json())
             .then(data => {})
             .catch(err => console.error(err));
