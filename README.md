@@ -1,5 +1,5 @@
 # Task-Management
-Simple task Management website for tracking your daily tasks or to manage your tasks in projects.
+Simple Task Management website for tracking your daily tasks or to manage your tasks in projects.
 
 ## Technologies
 ReactJS, ExpressJS, MongoDB
